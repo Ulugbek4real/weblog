@@ -3,7 +3,7 @@ import "./home.scss";
 import Posts from "../../components/posts/Posts";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Trending from "../../components/tranding/Trending";
-import {axiosInstance} from "../../config";
+import axiosInstance from "../../config";
 import { useLocation } from "react-router-dom";
 import Header from "../../components/header/Header"
 import { Context } from "../../context/Context"

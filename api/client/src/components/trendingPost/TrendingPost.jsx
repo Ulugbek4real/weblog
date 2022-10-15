@@ -1,7 +1,7 @@
 import "./trendingPost.scss";
 import { Link } from "react-router-dom";
 const TrendingPost = ({post}) => {
-    const PF  = "http://localhost:3000/images/"
+    const PF  = "https://weblogproject.herokuapp.com/images/"
   return (
     <div className="trendingPost">
      <div className="post trending-post">

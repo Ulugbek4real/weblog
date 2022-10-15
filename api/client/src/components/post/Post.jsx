@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Context } from "../../context/Context"
 import axiosInstance from "../../config";
 const Post = ({post}) => {
-  const PF  = "http://localhost:3000/images/"
+  const PF  = "https://weblogproject.herokuapp.com/images/"
   const {user} = useContext(Context);
   const handleDelete = async() => {
  

@@ -12,7 +12,7 @@ const Settings = () => {
   const [ success, setSuccess ] = useState(false);
 
   
-  const PF  = "http://localhost:3000/images/";
+  const PF  = "https://weblogproject.herokuapp.com/images/";
 
   const handleSubmit = async(e) =>{
     e.preventDefault();
