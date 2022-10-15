@@ -1,0 +1,44 @@
+.topBar {
+  width: 100%;
+  height: 75px;
+  background-color: #FFC017;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  border-bottom: solid black 1px;
+  z-index: 100;
+}
+.topBar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.topBar .wrapper .top-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topBar .wrapper .top-right .top-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topBar .wrapper .top-right .top-list .top-list-item {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.topBar .wrapper .top-right .top-list .btn {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}/*# sourceMappingURL=topBar.css.map */

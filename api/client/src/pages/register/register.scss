@@ -1,0 +1,117 @@
+.register{
+    width: 90%;
+    // height: 80vh;
+    margin: 20px auto ;
+    .floating{
+
+        max-width:300px ;
+        margin: 30px auto 0 auto;
+        box-shadow: 0 0 25px 0 rgba(96, 94, 94, 0.5) ;
+        padding: 1rem 4rem 6rem;
+        padding: 1rem;
+        border-radius: 10px;
+
+        h2{
+            border-bottom: 2px solid #1161ee;
+            display: inline-block;
+            padding-bottom: 2px;
+            font-weight: 200;
+        }
+
+       
+        .registerForm{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .img-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+                margin-top: 1rem;
+
+                .imgLabel{
+                    font-size: 1rem;
+                    cursor: pointer;
+                    background-color: lightblue;
+                    padding: 3px 20px; 
+                    border-radius: 10px;
+                }
+                .profPic{
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    
+                }
+
+            }
+            
+
+            .inputLabel{
+                font-size:12px;
+                margin-top: 1rem;
+            }
+            .input{
+                height: 35px;
+                border-radius: 10px;
+                
+                background-color: #f7f7f7;
+                border: transparent;
+                padding: 0 20px;
+                
+
+            }
+            .registerCheckbox{
+              padding-top: 0;
+              margin-top: 0;
+              margin-bottom: 2rem;
+              display: flex;
+              align-items: center;
+              input{
+                margin-right: 7px;
+                
+              }
+              span{
+              font-size: 12px;
+              }
+
+
+            }
+
+            .registerUpdate{
+                height:35px;
+                border-radius: 10px;
+                background-color: #1161ee;
+                color: white;
+                border: transparent;
+
+            }
+
+            .loginAccount{
+                margin-top: 2rem;
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                @media (max-width:350px) {
+                    font-size: 15px;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: green;
+                    font-weight: 600;
+
+                    &:hover{
+                        text-decoration: underline;
+                        transition: all ease 2s;
+                    }
+                }
+            }
+            
+           
+        }
+    }
+}

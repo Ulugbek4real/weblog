@@ -1,0 +1,54 @@
+.trendingPost {
+  width: 100%;
+  position: relative;
+}
+.trendingPost .order {
+  font-size: 35px;
+  position: absolute;
+  top: -9px;
+  padding-right: 1px;
+}
+.trendingPost a {
+  text-decoration: none;
+}
+.trendingPost .wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+.trendingPost .wrapper .postInfo .postHeader {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  font-size: 12px;
+}
+.trendingPost .wrapper .postInfo .postHeader a {
+  color: rgb(56, 56, 56);
+}
+.trendingPost .wrapper .postInfo .postHeader .authorPic {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.trendingPost .wrapper .postInfo .postTitle a {
+  color: black;
+  line-height: initial;
+  font-size: 11px;
+}
+.trendingPost .wrapper .postInfo .postFooter {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: 13px;
+}
+.trendingPost .wrapper .postInfo .postFooter a {
+  color: black;
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+  padding: 0 0.5rem;
+}
+.trendingPost .wrapper .postInfo .postFooter .left {
+  display: flex;
+  gap: 0.5rem;
+}/*# sourceMappingURL=trendingPost.css.map */

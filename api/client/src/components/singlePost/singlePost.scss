@@ -1,0 +1,172 @@
+.singlePost{
+    max-width: 1000px;
+    width: 80%;
+    // margin: 3rem auto 0;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    .singleHeader{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 0.5px grey solid;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+        .left{
+            display: flex;
+            gap: 1rem;
+
+            .authorPic{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 50%;
+                @media (max-width:25.3rem) {
+                width: 35px;
+                height: 35px;
+                object-fit: cover;
+                            }
+            }
+            .infoContainer{
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                .name{
+                    font-weight: 500;
+                    @media (max-width:25.3rem) {
+                        font-size: 0.8rem;
+                                }
+                }
+                .details{
+                    display: flex;
+                    gap: 0.6rem;
+                    color: rgb(159, 159, 159);
+                    @media (max-width:25.3rem) {
+                        font-size: 0.8rem;
+                                }
+                    .firstDot{
+                        @media (max-width:25.3rem) {
+                            display: none;
+                                    }
+                    }
+                    .readTime{
+                        
+                    }
+                    .listen{
+                        text-decoration:none;
+                        color: green;
+                        @media (max-width:25.3rem) {
+                            display: none;
+                                    }
+                    }
+                }
+            }
+
+           
+
+            
+            }
+
+            .right{
+               
+    
+              i{
+                margin-left: 1.5rem;
+                font-size: 20px;
+                transition: all ease 0.2s;
+            
+               
+              }
+              .twitter{
+                color:#00acee;
+                &:hover{
+                    transform: scale(1.3);
+                }
+                @media (max-width:35.62rem) {
+                    display: none;
+                            }
+              }
+              .facebook{
+                color:#3b5998;
+                &:hover{
+                    transform: scale(1.3);
+                }
+                @media (max-width:35.62rem) {
+                    display: none;
+                            }
+              }
+              .linkedin{
+                color:#0072b1;
+                &:hover{
+                    transform: scale(1.3);
+                }
+                @media (max-width:35.62rem) {
+                    display: none;
+                            }
+              }
+              .bookmark{
+            
+                &:hover{
+                    transform: scale(1.3);
+                }
+              }
+
+        }
+    }
+
+    .title{
+        margin-top: 2.5rem;
+        font-size: 2.5rem;
+        @media (max-width:43.75rem) {
+            font-size: 2rem;
+          }
+          @media (max-width:25.3rem) {
+            font-size: 1.4rem;
+                    }
+
+    }
+    .subTitle{
+      margin-top: 10px;
+      color:rgb(159, 159, 159);
+      font-size: 1.5rem;
+      font-weight: 300;
+      @media (max-width:43.75rem) {
+        font-size: 1.2rem;
+      }
+      @media (max-width:25.3rem) {
+        font-size: 1rem;
+                }
+    }
+
+    .postImg{
+        width: 100%;
+        margin-top: 40px;
+        max-height:500px;
+        object-fit: cover;
+        @media (max-width:25.3rem) {
+            margin-top: 20px;
+                    }
+    }
+
+    .story{
+        margin-top: 50px;
+        font-size: 1.375rem;
+        @media (max-width:43.75rem) {
+            font-size: 1.2rem;
+          }
+          @media (max-width:25.3rem) {
+            font-size: 1rem;
+            margin-top: 20px;
+                    }
+        line-height: 1.5;
+        color: rgb(76, 76, 76);
+        
+    }
+
+
+
+}
+

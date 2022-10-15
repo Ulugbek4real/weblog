@@ -1,0 +1,89 @@
+.settings{
+    width: 90%;
+    margin: 20px auto ;
+    .floating{
+        max-width:300px ;
+        margin: 30px auto 0 auto;
+        box-shadow: 0 0 25px 0 rgba(87, 86, 86, 0.5) ;
+        padding: 1rem;
+        border-radius: 10px;
+
+        h2{
+            border-bottom: 2px solid #1161ee;
+            display: inline-block;
+            padding-bottom: 2px;
+            font-weight: 200;
+        }
+
+       
+        .settingsForm{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .img-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                .imgLabel{
+                    font-size: 1rem;
+                    cursor: pointer;
+                    background-color: lightblue;
+                    padding: 3px 20px; 
+                    border-radius: 10px;
+                }
+                .profPic{
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    
+                }
+
+            }
+            
+
+            .inputLabel{
+                font-size:small;
+                margin-top: 1rem;
+            }
+            .input{
+                height: 35px;
+                border-radius: 10px;
+                
+                background-color: #f7f7f7;
+                border: transparent;
+                padding: 0 20px;
+                
+
+            }
+            .settingsCheckbox{
+              padding-top: 0;
+              margin-top: 0;
+              margin-bottom: 2rem;
+              input{
+                margin-right: 7px;
+                
+              }
+              span{
+              
+              }
+
+
+            }
+
+            .settingsUpdate{
+                height: 35px;
+                border-radius: 10px;
+                background-color: #1161ee;
+                color: white;
+                border: transparent;
+
+            }
+            
+           
+        }
+    }
+}

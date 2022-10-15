@@ -1,0 +1,139 @@
+.write{
+    width: 90%;
+    transition: all ease 0.2s;
+    @media (min-width:41rem) {
+        width: 70%;
+
+    }
+    margin: 0 auto;
+    padding-top:70px ;
+    .writeImage{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+        .writeForm{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            position: relative;
+            .writeFormGroup{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap:1rem;
+                .fileInput{
+                }
+
+                label{
+                  width: 30px;
+                  height: 27px;
+                    border-radius: 50px;
+                    @media (max-width:41rem) {
+                        width: 25px;
+                  height: 20px;
+                    }
+                    border: 2px solid; 
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    color: rgb(144, 144, 144);
+                    i{
+                        font-size: 25px;
+                        @media (max-width:41rem) {
+                            font-size: 20px;
+                        }
+                
+                    }
+                }
+                .writeInput{
+                    font-weight: 200;
+                    width: 100%;
+                    border: transparent;
+                    font-size: 35px;
+                    @media (max-width:41rem) {
+                        font-size: 27px;
+                    }
+                    &:focus{
+                       outline:none ;
+                    }
+                }
+                .writeText{
+                    font-size: 20px;
+                height: 70vh;
+                @media (max-width:41rem) {
+                    font-size: 1rem;
+                }
+                }
+            }
+            .sumbit-btn{
+                position: absolute;
+                top: -40px;
+                right:0;
+                @media (min-width:41rem) {
+                    position: absolute;
+                    top: 0;
+                    right: -75px;
+                }
+          
+                color: white;
+                background-color: rgb(39, 153, 138);
+                transition: all ease 0.2s;
+                &:hover{
+
+                    background-color: rgb(26, 113, 101);
+                }
+                padding: 10px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+        }
+   
+   
+
+}
+.writeInput{
+    width: 80%;
+    margin: 0 auto;
+    border: transparent;
+    font-size: 25px;
+    @media (max-width:41rem) {
+        font-size: 20px;
+    }
+    &:focus{
+        outline:none ;
+     }
+}
+
+
+
+
+.write-long{
+    width: 50px;
+    margin: 0 auto;
+    height: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid rgb(144, 144, 144);
+    &:focus{
+        outline: none;
+    }
+}
+
+.spanspan{
+    font-size: 1.2rem;
+    @media (max-width:41rem) {
+        font-size: 1rem;
+    }
+  color:  rgb(81, 78, 78);
+}
+
+.lastclass{
+    width: 80%;
+    margin: 0 auto;
+}

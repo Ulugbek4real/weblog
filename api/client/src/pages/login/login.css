@@ -1,0 +1,83 @@
+.login .floating {
+  max-width: 400px;
+  margin: 30px auto 0 auto;
+  box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.5);
+  padding: 5rem 4rem 6rem;
+}
+.login .floating h2 {
+  border-bottom: 2px solid #1161ee;
+  display: inline-block;
+  padding-bottom: 2px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+.login .floating .loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.login .floating .loginForm .img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.login .floating .loginForm .img-container .imgLabel {
+  font-size: larger;
+  cursor: pointer;
+  background-color: lightblue;
+  padding: 3px 20px;
+  border-radius: 20px;
+}
+.login .floating .loginForm .img-container .profPic {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.login .floating .loginForm .inputLabel {
+  font-size: small;
+  margin-top: 1rem;
+}
+.login .floating .loginForm .input {
+  height: 50px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  border: transparent;
+  padding: 0 20px;
+}
+.login .floating .loginForm .loginCheckbox {
+  padding-top: 0;
+  margin-top: 0;
+}
+.login .floating .loginForm .loginCheckbox input {
+  margin-right: 7px;
+  margin-bottom: 3rem;
+}
+.login .floating .loginForm .loginUpdate {
+  height: 50px;
+  border-radius: 20px;
+  background-color: #1161ee;
+  color: white;
+  border: transparent;
+}
+.login .floating .loginForm .createAccount {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.login .floating .loginForm .createAccount a {
+  text-decoration: none;
+  color: green;
+  font-weight: 600;
+}
+.login .floating .loginForm .createAccount a:hover {
+  text-decoration: underline;
+  transition: all ease 2s;
+}/*# sourceMappingURL=login.css.map */

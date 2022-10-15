@@ -1,0 +1,65 @@
+.sidebar{
+    flex: 4;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+  
+    
+    .sidebarItem{
+        position: sticky;
+        top: 2rem;
+   
+        .sidebarTitle{
+            font-size: 12px;
+            font-weight: 900;
+            line-height: 20px;
+            font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        .sidebarLinks{
+            padding-bottom: 30px;
+            border-bottom: 1px solid lightgrey;
+          .sidebarLink{
+            font-size: 13px;
+            display: inline-block;
+            text-decoration: none;
+            background-color: transparent;
+            color: rgb(73, 72, 72);
+            margin-left: 10px;
+            margin-top: 10px;
+            padding: 5px 10px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+            transition: all ease 0.3s;
+            &:hover{
+                background-color:rgb(237, 231, 231) ;
+            }
+            p{
+                font-weight: 300;
+            }
+            @media (max-width:24.375rem) {
+                font-size: 10px;
+            }
+          }
+        }
+        .extraLinks{
+
+            a{
+                cursor: pointer;
+                display: inline-block;
+                text-decoration: none;
+                color: rgb(73, 72, 72);
+                margin-left: 10px;
+                margin-top: 10px;
+                padding: 5px;
+                font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 300;
+                font-size: 13px;
+                @media (max-width:24.375rem) {
+                    font-size: 10px;
+                    margin-top: 0;
+                }
+        
+            }
+        }
+    }
+}

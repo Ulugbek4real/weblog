@@ -1,0 +1,9 @@
+.trending {
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+.trending .wrapper {
+  display: flex;
+  width: 80%;
+  margin: 4rem auto;
+}/*# sourceMappingURL=trending.css.map */

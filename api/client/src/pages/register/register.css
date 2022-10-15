@@ -1,0 +1,86 @@
+.register .floating {
+  max-width: 400px;
+  margin: 30px auto 0 auto;
+  box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.5);
+  padding: 1rem 4rem 6rem;
+}
+.register .floating h2 {
+  border-bottom: 2px solid #1161ee;
+  display: inline-block;
+  padding-bottom: 2px;
+  font-weight: 200;
+}
+.register .floating .registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.register .floating .registerForm .img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.register .floating .registerForm .img-container .imgLabel {
+  font-size: larger;
+  cursor: pointer;
+  background-color: lightblue;
+  padding: 3px 20px;
+  border-radius: 20px;
+}
+.register .floating .registerForm .img-container .profPic {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.register .floating .registerForm .inputLabel {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+.register .floating .registerForm .input {
+  height: 45px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  border: transparent;
+  padding: 0 20px;
+}
+.register .floating .registerForm .registerCheckbox {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+.register .floating .registerForm .registerCheckbox input {
+  margin-right: 7px;
+}
+.register .floating .registerForm .registerCheckbox span {
+  font-size: 12px;
+}
+.register .floating .registerForm .registerUpdate {
+  height: 45px;
+  border-radius: 20px;
+  background-color: #1161ee;
+  color: white;
+  border: transparent;
+}
+.register .floating .registerForm .loginAccount {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.register .floating .registerForm .loginAccount a {
+  text-decoration: none;
+  color: green;
+  font-weight: 600;
+}
+.register .floating .registerForm .loginAccount a:hover {
+  text-decoration: underline;
+  transition: all ease 2s;
+}/*# sourceMappingURL=register.css.map */

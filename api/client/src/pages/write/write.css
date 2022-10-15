@@ -1,0 +1,59 @@
+.write {
+  width: 70vw;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.write .writeImage {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.write .writeForm {
+  position: relative;
+}
+.write .writeForm .writeFormGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.write .writeForm .writeFormGroup label {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgb(144, 144, 144);
+}
+.write .writeForm .writeFormGroup label i {
+  font-size: 25px;
+}
+.write .writeForm .writeFormGroup .writeInput {
+  width: 100%;
+  border: transparent;
+  font-size: 35px;
+  padding: 15px;
+}
+.write .writeForm .writeFormGroup .writeInput:focus {
+  outline: none;
+}
+.write .writeForm .writeFormGroup .writeText {
+  font-size: 20px;
+  height: 100vh;
+}
+.write .writeForm .sumbit-btn {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}/*# sourceMappingURL=write.css.map */

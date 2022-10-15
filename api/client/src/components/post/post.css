@@ -1,0 +1,57 @@
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  line-height: 30px;
+  padding-bottom: 3rem;
+}
+.post a {
+  text-decoration: none;
+}
+.post .postInfo .postHeader {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+.post .postInfo .postHeader a {
+  color: rgb(56, 56, 56);
+}
+.post .postInfo .postHeader .authorPic {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.post .postInfo .postTitle a {
+  color: black;
+  line-height: initial;
+}
+.post .postInfo .postTitle .subtitle a {
+  color: grey;
+}
+.post .postInfo .postFooter {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+.post .postInfo .postFooter a {
+  color: black;
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+  padding: 0 0.5rem;
+}
+.post .postInfo .postFooter .left {
+  display: flex;
+  gap: 0.5rem;
+}
+.post .postInfo .postFooter .saved:hover {
+  cursor: pointer;
+}
+.post .postPic {
+  width: 200px;
+  height: 135px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=post.css.map */

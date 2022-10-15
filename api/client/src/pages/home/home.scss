@@ -1,0 +1,15 @@
+.home{
+    width: 85vw;
+    max-width: 72rem;
+    @media (min-width:62.25rem) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    @media (max-width:43.75rem) {
+      width: 95vw;
+    }
+
+    margin: 4rem auto 0;
+    gap: 3rem;
+
+}

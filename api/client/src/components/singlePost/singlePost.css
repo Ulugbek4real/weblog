@@ -1,0 +1,66 @@
+.singlePost {
+  max-width: 60vw;
+  margin: 0 auto;
+}
+.singlePost .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+}
+.singlePost .header .left {
+  display: flex;
+  gap: 1rem;
+}
+.singlePost .header .left .authorPic {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.singlePost .header .left .infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.singlePost .header .left .infoContainer .name {
+  font-weight: 500;
+}
+.singlePost .header .left .infoContainer .details {
+  display: flex;
+  gap: 0.6rem;
+  color: rgb(159, 159, 159);
+}
+.singlePost .header .left .infoContainer .details a {
+  text-decoration: none;
+  color: green;
+}
+.singlePost .header .right {
+  display: flex;
+}
+.singlePost .header .right i {
+  margin-right: 1.5rem;
+  font-size: 20px;
+  color: rgb(159, 159, 159);
+}
+.singlePost .title {
+  margin-top: 40px;
+  font-size: 40px;
+}
+.singlePost .subTitle {
+  margin-top: 10px;
+  color: rgb(159, 159, 159);
+  font-size: 25px;
+  font-weight: 300;
+}
+.singlePost .postImg {
+  width: 100%;
+  margin-top: 40px;
+}
+.singlePost .story {
+  margin-top: 50px;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgb(76, 76, 76);
+}/*# sourceMappingURL=singlePost.css.map */

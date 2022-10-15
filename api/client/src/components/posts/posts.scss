@@ -1,0 +1,13 @@
+.posts{
+    flex: 8;
+    .recent-br{
+        margin-bottom: 1rem;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        .clock{
+            color:rgb(69, 135, 165);
+            scale: 1.2;
+            padding-right: 0.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

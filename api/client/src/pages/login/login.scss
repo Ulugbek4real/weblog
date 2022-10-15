@@ -1,0 +1,124 @@
+.login{
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .floating{
+        width:300px ;
+        box-shadow: 0 0 25px 0 rgba(74, 73, 73, 0.5) ;
+        padding: 1rem;
+        border-radius: 10px;
+
+        h2{
+            border-bottom: 2px solid #1161ee;
+            display: inline-block;
+            padding-bottom: 2px;
+            font-weight: 200;
+            margin-bottom: 50px;
+        }
+
+       
+        .loginForm{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .img-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                .imgLabel{
+                    font-size: larger;
+                    cursor: pointer;
+                    background-color: lightblue;
+                    padding: 3px 20px; 
+                    border-radius: 10px;
+                }
+                .profPic{
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    
+                }
+
+            }
+            
+
+            .inputLabel{
+                font-size:small;
+                margin-top: 1rem;
+            }
+            .input{
+                height: 35px;
+                border-radius: 10px;
+            
+                background-color: #f7f7f7;
+                border: transparent;
+                padding: 0 20px;
+                
+
+            }
+            .loginCheckbox{
+              padding-top: 0;
+              margin-top: 0;
+            
+              input{
+                margin-right: 7px;
+                margin-bottom: 3rem;
+               
+                
+              }
+              
+
+
+            }
+
+            .loginUpdate{
+                height: 35px;
+                margin-top:5rem;
+                border-radius: 10px;
+                background-color: #1161ee;
+                color: white;
+                border: transparent;
+
+                &:disabled{
+                    background-color: #9dbdf6;
+                    cursor: not-allowed;
+                }
+
+            }
+
+            .createAccount{
+                margin-top: 1rem;
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                @media (max-width:350px) {
+                    font-size: 14px;
+                }
+           
+
+                a{
+                    text-decoration: none;
+                    color: green;
+                    font-weight: 600;
+
+                    &:hover{
+                        text-decoration: underline;
+                        transition: all ease 2s;
+                    }
+                }
+            }
+
+            
+           
+        }
+    }
+}
